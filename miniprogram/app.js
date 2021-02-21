@@ -1,4 +1,6 @@
 //app.js
+var Bmob = require('utils/Bmob-2.2.5.min.js')
+Bmob.initialize('2513b59fac8fb737','922086')
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -8,8 +10,15 @@ App({
 
     // 登录
     wx.login({
-      success: res => {
+      success: res => { 
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        Bmob.User.auth().then(res => {
+          console.log(res)
+          console.log('一键登陆成功')
+    
+        }).catch(err => {
+          console.log(err)
+        });
       }
     })
     // 获取用户信息
