@@ -8,3 +8,41 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.bg-color {
+  background-color:#00adb5;
+}
+
+/** font class **/
+.font-theme {
+  color: #00adb5;
+}
+
+.font-white {
+  color: #ffffff;
+}
+
+.font-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.font-normal {
+  font-size: 15px;
+}
+
+.font-small {
+  font-size: 8px;
+}
+
+/** button class **/
+.btn-theme{
+  background-color: #00adb5;
+}
+
+.btn-white {
+  background-color: #ffffff;
+}
+
+/** avatar **/
+
