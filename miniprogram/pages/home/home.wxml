@@ -1,2 +1,44 @@
 <!--pages/home.wxml-->
-<text>pages/home.wxml</text>
+<view class="wrapper">
+  <view class="top-container">
+    <view class="header-box bg-color">
+      <view class="avatar-box">
+        <image class="avatar avatar-100" src="../../icons/work-white.png" mode="cover"></image>
+      </view>
+      <view class="date-modifier">
+        <view class="modifier">
+          <image class="avatar-100" src="../../icons/arrow-left-white.png"></image> 
+        </view>
+        <view class="font-normal font-white">2021-02-24</view>
+        <view class="modifier">
+          <image class="avatar-100" src="../../icons/arrow-right-white.png"></image>
+        </view>
+      </view>
+      <view class="new-box">
+        <image class="avatar-100" src="../../icons/add-white.png" mode="cover"></image>
+      </view>
+    </view>
+    <view class="filter">
+      <view class="filter-section">
+        <view class="font-black font-normal">日</view>
+        <image class="img-small" src="../../icons/arrow down.png" mode="cover"></image>
+      </view>
+      <view class="filter-section">
+        <view class="font-black font-normal">工作</view>
+        <image class="img-small" src="../../icons/arrow down.png" mode="cover"></image>
+      </view>
+      <view class="filter-section">
+        <view class="font-black font-normal">排序</view>
+        <image class="img-small" src="../../icons/arrow down.png" mode="cover"></image>
+      </view>
+      <view class="filter-section">
+        <view class="font-black font-normal">未完成</view>
+        <image class="img-small" src="../../icons/arrow down.png" mode="cover"></image>
+      </view>
+    </view>
+  </view>
+  <view class="content-container">
+
+  </view>
+  <view class="footer-container"></view>
+</view>

@@ -7,8 +7,8 @@
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="btn-login btn-white font-theme font-title"> 一键登录 </button>
     <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <image bindtap="bindViewTap" class="avatar avatar-50" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="font-white font-normal">{{userInfo.nickName}}</text>
     </block>
   </view>
 </view>

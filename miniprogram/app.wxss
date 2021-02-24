@@ -13,6 +13,10 @@
   background-color:#00adb5;
 }
 
+.ft-color {
+  color: #00adb5;
+}
+
 /** font class **/
 .font-theme {
   color: #00adb5;
@@ -20,6 +24,10 @@
 
 .font-white {
   color: #ffffff;
+}
+
+.font-black {
+  color: #222831;
 }
 
 .font-title {
@@ -45,4 +53,17 @@
 }
 
 /** avatar **/
+.avatar {
+  border-radius:50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
 
+.avatar-50 {
+  width: 50%;
+  height:50%;
+}
+
+.avatar-100 {
+  width:100%;
+  height: 100%;
+}
